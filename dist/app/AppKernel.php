@@ -28,8 +28,6 @@ class AppKernel extends Kernel
 
             new FOS\UserBundle\FOSUserBundle(),
 
-            new WMC\CommonBundle\WMCCommonBundle,
-            new WMC\DoctrineBundle\WMCDoctrineBundle,
             new WMC\DirectoryLoaderBundle\WMCDirectoryLoaderBundle,
 
             new AppBundle\AppBundle(),
