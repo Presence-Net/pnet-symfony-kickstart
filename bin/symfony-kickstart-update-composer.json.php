@@ -28,8 +28,6 @@ foreach (array('post-install-cmd', 'post-update-cmd') as $event) {
     array_unshift($data['scripts'][$event], "WMC\AppLoader\ScriptHandler::buildParameters");
 }
 
-$data['require']['symfony2-bundles/wmccommonbundle'] = '*';
-$data['require']['symfony2-bundles/wmcdoctrinebundle'] = '*';
 $data['require']['sp/bower-bundle'] = 'dev-master';
 $data['require']['jms/di-extra-bundle'] = '1.x';
 $data['require']['jms/security-extra-bundle'] = '1.x';
