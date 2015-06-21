@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SYMFONY_VERSION="2.6"
+SYMFONY_VERSION="2.7"
 COMPOSER_REPOSITORY="http://composer.wemakecustom.com/proxy/packagist" # http://packagist.org
 WEB_DIRECTORY="htdocs"
 
